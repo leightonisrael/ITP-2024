@@ -53,7 +53,9 @@ char *board = (char *)malloc(SIZE * SIZE * sizeof(char));
 
 O tabuleiro do jogo é representado por um vetor de caracteres.
 
+```
 char board[SIZE * SIZE];
+```
 
 ``Ponteiros``
 
