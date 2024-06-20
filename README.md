@@ -96,8 +96,10 @@ int** tabuleiro;
 
 ``Ponteiros``
 
-O tabuleiro é manipulado usando ponteiros duplos int **tabuleiro.
-
+O tabuleiro é manipulado usando ponteiros duplos
+```
+ int **tabuleiro.
+```
 ``Funções``
 
 O código usa várias funções para modularizar a solução do problema:
