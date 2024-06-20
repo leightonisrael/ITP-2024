@@ -79,7 +79,7 @@ A memória para o tabuleiro NxN é alocada dinamicamente usando malloc.
 int** tabuleiro = (int*)malloc(N * sizeof(int*));
 for (int i = 0; i < N; i++)
     tabuleiro[i] = (int*)malloc(N * sizeof(int));
-    ```
+```
 
 ``Vetores ou matrizes``
 
