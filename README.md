@@ -98,7 +98,7 @@ int** tabuleiro;
 
 O tabuleiro é manipulado usando ponteiros duplos
 ```
- int **tabuleiro.
+ int **tabuleiro
 ```
 ``Funções``
 
