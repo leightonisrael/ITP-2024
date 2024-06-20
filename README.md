@@ -40,7 +40,7 @@ gcc n_rainhas.c -o n_rainhas
 
 Como foi solicitado, usamos: `Alocação de Memória`, `Vetores ou Matrizes`, `Ponteiros` e `Funções`.
 
-# Problema 1: Jogo da Velha
+## Problema 1: Jogo da Velha
 
 ``Alocação de memória dinâmica``
 A memória para o tabuleiro do jogo é alocada dinamicamente usando malloc.
