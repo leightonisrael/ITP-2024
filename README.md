@@ -7,7 +7,7 @@
 
 ## Descrição do Projeto
 
-Este projeto consiste em três programas em linguagem C que abordam diferentes desafios. O primeiro programa simula o jogo da velha, o segundo resolve o problema das N-Rainhas, e o terceiro é um desafio bônus que calcula e analisa as diferentes formas de posicionar as N-Rainhas em um tabuleiro.
+Este projeto consiste em três programas em linguagem C que abordam diferentes desafios. O primeiro programa simula o jogo da velha e o segundo resolve o problema das N-Rainhas.
 
 ## Problema 1: Jogo da Velha
 
