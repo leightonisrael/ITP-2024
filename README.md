@@ -59,8 +59,10 @@ char board[SIZE * SIZE];
 
 ``Ponteiros``
 
-O tabuleiro é manipulado usando um ponteiro char *board.
-
+O tabuleiro é manipulado usando um ponteiro 
+```
+char *board
+```
 ``Funções``
 
 O código usa várias funções para modularizar o jogo:
