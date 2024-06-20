@@ -35,7 +35,8 @@ gcc n_rainhas.c -o n_rainhas
 ./n_rainhas
 ```
 
-## Obserações:
+
+# Obserações
 
 Como foi solicitado, usamos: `Alocação de Memória`, `Vetores ou Matrizes`, `Ponteiros` e `Funções`.
 
