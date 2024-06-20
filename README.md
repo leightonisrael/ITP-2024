@@ -62,10 +62,12 @@ O tabuleiro é manipulado usando um ponteiro char *board.
 
 O código usa várias funções para modularizar o jogo:
 
-```void printBoard(char *board)
+```
+void printBoard(char *board)
 char checkWinner(char *board)
 void playerMove(char *board)
-void computerMove(char *board)```
+void computerMove(char *board)
+```
 
 ## Problema 2: N-Rainhas
 
@@ -73,15 +75,19 @@ void computerMove(char *board)```
 
 A memória para o tabuleiro NxN é alocada dinamicamente usando malloc.
 
-````int** tabuleiro = (int*)malloc(N * sizeof(int*));
+```
+int** tabuleiro = (int*)malloc(N * sizeof(int*));
 for (int i = 0; i < N; i++)
-    tabuleiro[i] = (int*)malloc(N * sizeof(int));```
+    tabuleiro[i] = (int*)malloc(N * sizeof(int));
+    ```
 
 ``Vetores ou matrizes``
 
 O tabuleiro NxN é representado por uma matriz de inteiros.
 
-```int** tabuleiro;```
+```
+int** tabuleiro;
+```
 
 ``Ponteiros``
 
@@ -91,7 +97,9 @@ O tabuleiro é manipulado usando ponteiros duplos int **tabuleiro.
 
 O código usa várias funções para modularizar a solução do problema:
 
-````bool ehSeguro(int **tabuleiro, int linha, int coluna, int N)
+```
+bool ehSeguro(int **tabuleiro, int linha, int coluna, int N)
 bool resolverNRainhasUtil(int **tabuleiro, int coluna, int N)
 void imprimirSolucao(int **tabuleiro, int N)
-void resolverNRainhas(int N)````
+void resolverNRainhas(int N)
+```
