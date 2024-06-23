@@ -31,7 +31,7 @@ bool resolverNRainhasUtil(int** tabuleiro, int coluna, int N) {
             if (resolverNRainhasUtil(tabuleiro, coluna + 1, N))
                 return true;
 
-            tabuleiro[i][coluna] = 0;
+            tabuleiro[i][coluna] = 0; // BACKTRACK
         }
     }
     return false;
@@ -46,7 +46,7 @@ void imprimirSolucao(int** tabuleiro, int N) {
 }
 
 void resolverNRainhas(int N) {
-    int** tabuleiro = (int*)malloc(N * sizeof(int));
+    int** tabuleiro = (int**)malloc(N * sizeof(int*));
     for (int i = 0; i < N; i++)
         tabuleiro[i] = (int*)malloc(N * sizeof(int));
 
